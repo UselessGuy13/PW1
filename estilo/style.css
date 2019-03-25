@@ -1,0 +1,205 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+/* classes*/
+.fontC{
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color: darkslategrey;
+}
+.FormatoItem{
+    clear: both;
+    float: left;
+    width: 88%;
+    height: 300px;
+    margin: 20px 0px 0px 30px;
+
+}
+.FormatoItembaixo{
+    clear: both;
+    float: left;
+    width: 88%;
+    height: 300px;
+    margin: 70px 0px 0px 30px;
+
+}
+.imagemItem{
+    width: 100%;
+    height: 200px;
+    border-radius: 80px;
+}
+.listaUL{
+    list-style: none;
+    text-align: left;
+    margin-left: 50px;
+
+}
+.listaLi{
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin: 0px 10px 0px 0px
+        
+}
+.tituloColuna3{
+    text-align: center;
+    margin-left: 10px;
+}
+
+/*fim das classes*/
+
+
+
+#cabecalho{
+    margin:50px 0 0 0 ;
+    width:0 auto;
+    height:100px;
+}
+#gif{
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top:25px;
+    margin-right:120px;
+    width:100px;
+    height:100px;
+}
+#titulo{
+    margin: 0 auto;
+    height:75px;
+    width: 75%;
+}
+#menu{
+    margin: 0 auto;
+    height:25px;
+    width: 75%;
+}
+#corpo{
+    margin: 0 auto;
+    width:75%;
+    height: 900px;
+    background-color: rgb(255, 0, 0);
+}
+#receitas{
+    float: left;
+    width:30%;
+    height:855px;
+    margin: 25px 11px 0px 25px;
+    
+}
+#dicas{
+    float: left;
+    width:30%;
+    height:855px;
+    margin: 25px 11px 25px 25px;
+
+
+}
+#materias{
+    float: left;
+    width:30%;
+    height:855px;
+    margin: 25px 11px 25px 10px;
+
+}
+#rodape{
+    margin:0 auto;
+    width:100%;
+    height:30px;
+    clear: both;
+    background-color: lightslategray
+}
+
+#titulo h1{
+    text-align:center;
+    font-size: 59px;
+    letter-spacing:5px;
+}
+#menu ul{
+    list-style: none;
+    text-align: center;
+}
+#menu ul li{
+    display:inline;
+    margin:0px 30px 0px 30px;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 20px;
+    
+}
+#menu ul li a:hover{
+    color:black;
+    transition-delay:0.1s;
+    
+}
+
+#rodape p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
+}
+#item1 ul li a{
+    text-decoration: none;
+    color: rgba(71, 65, 65, 0.733);
+    font-size: 20px;
+
+}
+#item1 ul li a:hover{
+    color:black;
+    transition-delay:0.1s;
+
+}
+
+/* sobre.html */
+#corpo h3{
+    text-align: center;
+    padding-left: 25px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(138, 31, 160, 0.568) ;
+}
+#corpo p{
+    text-align: justify;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:0.8px;
+    line-height: 20px;
+
+}   
+/* fim sobre */
+
+/* mundo.html */
+#corpo1{
+    margin: 0 auto;
+    width:75%;
+    height: 900px;
+}
+#corpo1 p{
+    text-align: justify;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:0.8px;
+    line-height: 20px;
+}
+#corpo1 h3{
+    text-align: center;
+    padding-left: 25px;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(138, 31, 160, 0.568) ;
+}
+
+/* fim mundo.html */
+hr {
+    border-left:1px solid #666;
+  }
+
